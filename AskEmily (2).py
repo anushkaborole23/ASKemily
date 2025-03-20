@@ -3,7 +3,7 @@ from transformers import pipeline
 from geopy.distance import geodesic
 
 # Initialize AI model
-generator = pipeline("text-generation", model="gpt2")
+generator = pipeline("text-generation", model="gpt4")
 
 # App title and header
 st.title("Ask Emily")
